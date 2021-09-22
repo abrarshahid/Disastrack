@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+body {
+  background-image:url('https://www.wallpaperup.com/uploads/wallpapers/2012/10/14/19257/f3f1dcc53bb7c1c84bd2b2b29caca52a-700.jpg');
+  margin: 0;
+  font-family:'Dosis', sans-serif;
+  color:white;
+}
+.mapIndicator{
+  height: 35px;
+  width:45px;
+}
+.map{
+  display: grid;
+  place-items: center;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+.mapText{
+  margin-block-start: 0.3em;
+}
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  margin:15px;
+}
+.navtext{
+  margin-block-start:0em;
+  margin-block-end: 0em;
+  color:white;
+}
+a{
+  text-decoration:none;
+}
+table{
+  border-collapse: collapse;
+  margin-right:10%;
+   margin-bottom: 10%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+body::-webkit-scrollbar {
+  width: 0.8em;
+  height:5em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  height:5em;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+
+border-radius: 10px;
+background-color: #1b2b5a;
+}
+.help {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.help label {
+  text-align: left;
+  display: block;
+}
+.help input, .help textarea {
+  width: 100%;
+  padding: 6px 10px;
+  border-collapse: collapse;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  outline:none;
+  font-family:'Dosis', sans-serif;
+}
+.help button {
+  background: #ffffff;
+  color: #0e174b;
+  font-family:'Dosis', sans-serif;
+  font-size:18px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.helplist{
+  text-align:center;
+  margin:5px;
+  border : 1px solid white;
+}
+.custom-shape-divider-bottom-1629708512 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629708512 svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 147px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1629708512 .shape-fill {
+  fill: #2B1636;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-bottom-1629708512 svg {
+      width: calc(213% + 1.3px);
+      height: 147px;
+  }
+}
